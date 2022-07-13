@@ -53,7 +53,7 @@
                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                     <div class="Appointment">
                         <div class="book_btn d-none d-lg-block">
-                            <a  href="#"> <i class="fa fa-phone"></i> +256 673 567 367</a>
+                            <a  href="#"> <i class="fa fa-phone"></i> +256-776-6178-881</a>
                         </div>
                     </div>
                 </div>

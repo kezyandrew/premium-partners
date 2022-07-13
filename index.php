@@ -34,7 +34,7 @@
                                     We are your growth  <br>
                                         partners
                                 </h3>
-                            <a class="boxed-btn3" href="#">Get Started</a>
+                            <a class="boxed-btn3" href="#services">Get Started</a>
                             </div>
                             <div class="ilstrator_thumb">
                                 <img src="img/ilstrator/hero4.png" alt="">
@@ -121,7 +121,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="section_title text-center mb-95 white_text">
+                    <div class="section_title text-center mb-95 white_text" id="services">
                         <h3>Our Services</h3>
                         <!-- <p>Esteem spirit temper too say adieus who direct esteem. It esteems <br>
                             luckily or picture placing drawing. </p> -->

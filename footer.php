@@ -9,8 +9,8 @@
                                 </div>
                                 <div class="col-xl-6 col-md-6">
                                     <div class="phone_number">
-                                        <h3>+256 673 563 629</h3>
-                                        <a href="#">support@ppi.com</a>
+                                        <h3>+256-776-617-881</h3>
+                                        <a href="#">info@premiumpartnersint.com</a>
                                     </div>
                                 </div>
                             </div>
