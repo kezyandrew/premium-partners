@@ -497,7 +497,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: inline-block;
-  color: #FF008C;
+  
 }
 
 /* line 77, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_btn.scss */
@@ -1902,11 +1902,12 @@ h3 {
 /* line 10, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_details.scss */
 .case_details_area .case_thumb img {
   width: 100%;
+  height: fit-content;
 }
 
 /* line 13, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_details.scss */
 .case_details_area .details_title {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /* line 15, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_details.scss */
@@ -2841,12 +2842,12 @@ h3 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 21%;
+  width: 20px;
 }
 
 /* line 250, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_bradcam.scss */
 .bradcam_shap img {
-  width: 100%;
+  width: 20px;
 }
 
 /* line 1, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_department.scss */
@@ -3070,21 +3071,21 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
   .service_area {
-    padding-bottom: 30px;
-    padding-top: 80px;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
   .service_area {
-    padding-bottom: 50px;
+    padding-bottom: 5px;
   }
 }
 
 /* line 15, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .service_area .single_service {
-  padding: 48px 35px 45px 35px;
+  padding: 20px 15px 20px 15px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -3094,12 +3095,13 @@ h3 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  background-color: #C8FCEA;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 15, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
   .service_area .single_service {
-    padding: 30px 20px;
+    padding: 10px 10px;
   }
 }
 
@@ -3142,12 +3144,12 @@ h3 {
 
 /* line 50, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .service_area .col-xl-4:nth-child(2) .single_service .icon {
-  background: #FFF0F8;
+  background: #C8FCEA;
 }
 
 /* line 53, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .service_area .col-xl-4:nth-child(3) .single_service .icon {
-  background: #EFFDF5;
+  background: #323835;
 }
 
 /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
@@ -3844,6 +3846,16 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+/* Services images same height */
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}
+
 
 /* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading {
@@ -7113,3 +7125,4 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* hero  */

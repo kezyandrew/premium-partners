@@ -1,8 +1,204 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
+<style>
+       .hero {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/hero-bg.png) top center no-repeat;
+    background-size: cover;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  .hero h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+  }
+  
+  .hero .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  }
+  
+  .hero .btn-get-started span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .hero .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .hero .btn-get-started:hover i {
+    transform: translateX(5px);
+  }
+  
+  .hero .hero-img {
+    text-align: right;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .hero {
+      height: auto;
+      padding: 120px 0 60px 0;
+    }
+  
+    .hero .hero-img {
+      text-align: center;
+      margin-top: 80px;
+    }
+  
+    .hero .hero-img img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+    }
+  
+    .hero h2 {
+      font-size: 24px;
+    }
+  
+    .hero .hero-img img {
+      width: 100%;
+    }
+  }
+  .container-service{
+    border-radius: 30px;
+background: #FAF8FF;
+box-shadow:  5px 5px 8px #c1bfc4,
+             -5px -5px 8px #ffffff;
+  }
 
 
+  .card-big-shadow {
+    max-width: 320px;
+    position: relative;
+}
+
+.coloured-cards .card {
+    margin-top: 30px;
+}
+
+.card[data-radius="10px"] {
+    border-radius: 10px;
+}
+.card {
+    border-radius: 30px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.card[data-background="image"] .title, .card[data-background="image"] .stats, .card[data-background="image"] .category, .card[data-background="image"] .description, .card[data-background="image"] .content, .card[data-background="image"] .card-footer, .card[data-background="image"] small, .card[data-background="image"] .content a, .card[data-background="color"] .title, .card[data-background="color"] .stats, .card[data-background="color"] .category, .card[data-background="color"] .description, .card[data-background="color"] .content, .card[data-background="color"] .card-footer, .card[data-background="color"] small, .card[data-background="color"] .content a {
+    color: #FFFFFF;
+}
+.card.card-just-text .content {
+    padding: 50px 65px;
+    text-align: center;
+}
+.card .content {
+    padding: 20px 20px 10px 20px;
+}
+.card[data-color="blue"] .category {
+    color: #7a9e9f;
+}
+
+.card .category, .card .label {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.card-big-shadow:before {
+    background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -12%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+   
+}
+h4, .h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+h6, .h6 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card .description {
+    font-size: 16px;
+    color: #66615b;
+}
+.content-card{
+    margin-top:30px;    
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+/*======== COLORS ===========*/
+.card[data-color="blue"] {
+    background: #0b2041;
+}
+.card[data-color="blue"] .description {
+    color:#fff;
+}
+
+.card[data-color="green"] {
+    background: #0b2041;
+}
+.card[data-color="green"] .description {
+    color: #fff;
+}
+.card[data-color="green"] .category {
+    color: #70a0a0;
+}
+
+
+
+    </style>
 <body>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -13,78 +209,92 @@
     <?php  include 'nav.php';?>
     <!-- header-end -->
 </header>
-    <div class="shap_big_2 d-none d-lg-block">
-        <img src="img/ilstrator/body_shap_2.png" alt="">
-    </div>
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="shap_img_1 d-none d-lg-block">
-            <img src="img/ilstrator/body_shap_1.png" alt="">
-        </div>
-        <div class="poly_img">
-            <img src="img/ilstrator/poly.png" alt="">
-        </div>
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-10 offset-xl-1">
-                        <div class="slider_text text-center">
-                            <div class="text">
-                                <h3>
-                                    We are your growth  <br>
-                                        partners
-                                </h3>
-                            <a class="boxed-btn3" href="#services">Get Started</a>
-                            </div>
-                            <div class="ilstrator_thumb">
-                                <img src="img/ilstrator/hero4.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+   <section id="hero" class="hero d-flex align-items-center ">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+         
+          <div data-aos="fade-up" data-aos-delay="600" class=>
+            <div class="text-center text-lg-start mt-3">
+              <a href="#about" class="boxed-btn3  ">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
+          </div>
         </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="./img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
     </div>
+
+  </section><!-- End Hero -->
     <!-- slider_area_end -->
 
     <!-- service_area  -->
-    <div class="service_area">
+    <!-- <div class="service_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-md-4">
-                    <div class="single_service text-center">
+                    <div class=" container-service text-center">
                         <div class="icon">
                             <img src="img/svg_icon/seo_1.svg" alt="">
                         </div>
                         <h3>Vision</h3>
                         <p>To be an innovative and exceptional Tech-service company, driven by service and excellence.</p>
-                        <!-- <a href="#" class="boxed-btn3-text">Learn More</a> -->
+                       
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
-                    <div class="single_service text-center">
+                    <div class="container-service text-center">
                         <div class="icon">
                             <img src="img/svg_icon/seo_2.svg" alt="">
                         </div>
                         <h3>Mission</h3>
                         <p>To transform the markets that we operate in and the world at large through quality tech- service and innovations.</p>
-                        <!-- <a href="#" class="boxed-btn3-text">Learn More</a> -->
+                       
                     </div>
                 </div>
-                <!-- <div class="col-xl-4 col-md-4">
-                    <div class="single_service text-center">
-                        <div class="icon">
-                            <img src="img/svg_icon/seo_3.svg" alt="">
-                        </div>
-                        <h3>Social Media</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing.</p>
-                        <a href="#" class="boxed-btn3-text">Learn More</a>
-                    </div>
-                </div> -->
+
             </div>
 
         </div>
+    </div> -->
+
+    <div class="container bootstrap snippets bootdeys ">
+<div class="row col-container">
+    <div class="col-md-6 col-sm-6 content-card col">
+        <div class="card-big-shadow">
+            <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                <div class="content">
+                    <h6 class="category">Vision</h6>
+                    <!-- <h4 class="title"><a href="#">Blue Card</a></h4> -->
+                    <p class="description p-1">To be an innovative and exceptional Tech-service company, driven by service and excellence.</p>
+                        </p>
+                </div>
+            </div> <!-- end card -->
+        </div>
     </div>
+    
+    <div class="col-md-6 col-sm-6 content-card col">
+        <div class="card-big-shadow">
+            <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                <div class="content">
+                    <h6 class="category">Mission</h6>
+                    <!-- <h4 class="title"><a href="#">Green Card</a></h4> -->
+                    <p class="description ">To transform the markets that we operate in and the world at large through quality tech- service and innovations.</p>
+                        </p>
+                </div>
+            </div> <!-- end card -->
+        </div>
+    </div>
+    
+    
+</div>
+</div>
     <!--/ service_area  -->
 
     <!-- compapy_info  -->
@@ -128,8 +338,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
+            <div class="row ">
+                <div class="col-xl-12 col">
                     <div class="case_active owl-carousel">
                             <div class="single_study text-center">
                                     <div class="thumb">
@@ -138,7 +348,7 @@
                                         </a>
                                     </div>
                                     <div class="subheading">
-                                        <h4><a href="services.php">Project & Program Management</a></h4>
+                                        <h4><a href="services.php">Project Management</a></h4>
                                         <!-- <p>UI/UX, Design</p> -->
                                     </div>
                                 </div>
@@ -160,7 +370,7 @@
                                         </a>
                                     </div>
                                     <div class="subheading">
-                                        <h4><a href="services.php">Water Resources, Environmental Management & Nature Conservation
+                                        <h4><a href="services.php">Environmental Management
 </a></h4>
                                         <!-- <p>UI/UX, Design</p> -->
                                     </div>
@@ -180,7 +390,7 @@
                                 <div class="single_study text-center">
                                         <div class="thumb">
                                             <a href="services.php">
-                                                <img src="img/portfolio/agric2.jpg" alt="">
+                                                <img src="./img/portfolio/agric2 .jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="subheading">
