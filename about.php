@@ -178,21 +178,7 @@ flex-direction: column;
             <hr class="hr-line">
 
            
-            <div class="details_main_wrap" style="float: right;">
-            <div class="single_details mb-60">
-                                <ul>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> Facebook </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> Twitter </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-pinterest-p"></i> Pinterest </a>
-                                    </li>
-                                </ul>
-                            </div>
-            </div>
+           
           
             </div>
             </div>
