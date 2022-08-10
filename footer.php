@@ -28,17 +28,17 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/Premium-Partners-International-107899795331371/?ref=page_internal">
                                                 <i class="ti-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://twitter.com/PremiumPartner3?t=zZ2xVBfT4Nl_4qYST1aT2Q&s=09">
                                                 <i class="ti-twitter-alt"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/premiumpartnersint/">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
