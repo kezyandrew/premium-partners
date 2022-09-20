@@ -199,7 +199,7 @@ a:hover, a:focus {
 
 
     </style>
-<body>
+<body onload="zoom()">
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -665,6 +665,12 @@ a:hover, a:focus {
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "120%" 
+        }
+</script>
+
 </body>
 
 </html>

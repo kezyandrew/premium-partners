@@ -61,7 +61,7 @@ flex-direction: column;
 }
 </style>
 
-<body>
+<body onload="zoom()">
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -386,6 +386,12 @@ for (i = 0; i < faq.length; i++) {
     });
 }
     </script>
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "135%" 
+        }
+</script>
+
 </body>
 
 </html>

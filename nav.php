@@ -34,7 +34,7 @@
                 <div class="col-xl-3 col-lg-2">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="img/logo-removebg-preview.png" alt="" style="width:80px; height: 50px;">
+                            <img src="img/logo-removebg-preview.png" alt="" style="width:80px; height: 50px; font: weight 600px;">
                         </a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                     <div class="Appointment">
                         <div class="book_btn d-none d-lg-block">
-                            <a  href="#"> <i class="fa fa-phone"></i> +256-776-6178-881</a>
+                            <a  href="#"> <i class="fa fa-phone"></i> +256-776-6178-81</a>
                         </div>
                     </div>
                 </div>
